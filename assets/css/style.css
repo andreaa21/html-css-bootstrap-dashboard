@@ -33,6 +33,10 @@ main{
   height: 90%;
 }
 
+.sidenav-top ul{
+  list-style: none;
+}
+
 .sidenav-top a{
   color: white;
   text-decoration: none;

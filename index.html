@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css' integrity='sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==' crossorigin='anonymous'/>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js' integrity='sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==' crossorigin='anonymous'></script>
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css' integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==' crossorigin='anonymous'/>
+
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Dashboard</title>
 </head>
@@ -23,7 +28,7 @@
               </a>
               <div class="d-flex" id="navbarSupportedContent">
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control me-2" style="width: 100%; type="search" placeholder="Search" aria-label="Search">
                 </form>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
@@ -40,24 +45,29 @@
     </div>
   </header>
 
-  <main class="d-flex">
+  <main class="d-flex mt-5">
 
     <!-- SIDENAV -->
 
     <div class="container-fluid c-container text-white">
-      <div class="row text-center h-100">
+      <div class="row h-100">
         <div class="col">
 
           <div class="sidenav-top">
-            <div class="home">
-              <a href="#" class="d-none d-md-block">Home</a>
-            </div>
-            <div class="stats">
-              <a href="#" class="d-none d-md-block">Stats</a>
-            </div>
-            <div class="signals">
-              <a href="#" class="d-none d-md-block">Signals</a>
-            </div>
+            <ul class="mt-2">
+              <li class="my-1">
+                <i class="fa-solid fa-house"></i>
+                <a href="#" class="d-none d-md-inline-block ms-1">Home</a>
+              </li>
+              <li class="my-1">
+                <i class="fa-solid fa-chart-simple"></i>
+                <a href="#" class="d-none d-md-inline-block ms-1">Stats</a>
+              </li>
+              <li class="my-1">
+                <i class="fa-solid fa-signal"></i>
+                <a href="#" class="d-none d-md-inline-block ms-1">Signals</a>
+              </li>
+            </ul>
           </div>
 
           <div class="sidenav-bottom d-flex align-items-center justify-content-center">
@@ -74,7 +84,7 @@
 
     <!-- CONTENT -->
 
-    <div class="container-fluid overflow-auto">
+    <div class="container-fluid overflow-auto p-0">
       <div class="row">
         <div class="col">
 
