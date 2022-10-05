@@ -25,6 +25,19 @@ main{
   height: calc(100vh - 70px);
 }
 
+.sidenav-top{
+  height: 90%;
+}
+
+.sidenav-top a{
+  color: white;
+  text-decoration: none;
+}
+
+.sidenav-bottom{
+  height: 10%
+}
+
 .content-top{
   background-color: ;
 }
