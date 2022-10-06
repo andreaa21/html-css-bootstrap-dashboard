@@ -54,3 +54,7 @@ main{
 .content-top{
   background-color: ;
 }
+
+.chart img{
+  width: 100%;
+}
