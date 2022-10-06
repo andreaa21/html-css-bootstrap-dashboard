@@ -23,8 +23,8 @@
           <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.svg" class="d-none d-md-block" alt="logo">
-                <img src="assets/img/mobile-logo.png" class="d-md-none" alt="logo-mobile">
+                <img src="assets/img/logo.svg" class="d-none d-lg-block" alt="logo">
+                <img src="assets/img/mobile-logo.png" class="d-lg-none" alt="logo-mobile">
               </a>
               <div class="d-flex" id="navbarSupportedContent">
                 <form class="d-flex" role="search">
@@ -51,21 +51,27 @@
 
     <div class="container-fluid c-container sidenav text-white">
       <div class="row h-100">
-        <div class="col">
+        <div class="col p-0 text-start">
 
           <div class="sidenav-top">
             <ul class="mt-2">
               <li class="my-1">
                 <i class="fa-solid fa-house"></i>
-                <a href="#" class="d-none d-md-inline-block ms-1">Home</a>
+                <a href="#" class="d-none d-lg-inline-block">
+                  Home
+                </a>
               </li>
               <li class="my-1">
                 <i class="fa-solid fa-chart-simple"></i>
-                <a href="#" class="d-none d-md-inline-block ms-1">Stats</a>
+                <a href="#" class="d-none d-lg-inline-block">
+                  Stats
+                </a>
               </li>
               <li class="my-1">
                 <i class="fa-solid fa-signal"></i>
-                <a href="#" class="d-none d-md-inline-block ms-1">Signals</a>
+                <a href="#" class="d-none d-lg-inline-block">
+                  Signals
+                </a>
               </li>
             </ul>
           </div>
@@ -73,7 +79,7 @@
           <div class="sidenav-bottom d-flex align-items-center justify-content-center">
             <div class="admin w-100 text-center">
               <i class="fa-solid fa-gear"></i>
-              <span class="d-none d-md-inline-block ms-1">
+              <span class="d-none d-lg-inline-block ms-1">
                 Admin
               </span>
             </div>
@@ -92,8 +98,8 @@
           <!-- content-top -->
 
           <section class="content-top text-white">
-            <div class="row flex-column flex-md-row d-flex align-items-center bg-primary">
-              <div class="col-md-8">
+            <div class="row flex-column flex-lg-row d-flex align-items-center bg-primary">
+              <div class="col-lg-8">
                 
                   <div class="row">
                     <h2>
@@ -107,7 +113,7 @@
                   </div>
 
               </div>
-              <div class="col-md-4">
+              <div class="col-lg-4">
 
                 <div class="row">
                   <span>
@@ -127,7 +133,7 @@
 
           <section class="content-bottom">
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-lg-8">
 
                 <div class="item">
                   <div class="item-top">
@@ -136,7 +142,35 @@
                     </h2>
                   </div>
                   <div class="item-bottom">
-                    tabella
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
 
@@ -152,7 +186,7 @@
                 </div>
 
               </div>
-              <div class="col-md-4">
+              <div class="col-lg-4">
 
                 <div class="item">
                   <div class="item-top">
