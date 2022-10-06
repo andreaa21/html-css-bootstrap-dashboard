@@ -9,9 +9,19 @@
 }
 
 [class^=container]{
-  background-color: rgba(172, 255, 47, 0.397);
+  /* background-color: rgba(146, 76, 10, 0.397); */
   border: 1px solid red;
 }
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.bg-lightgray{
+  background-color: #F7F7F7;
+}
+
 
 .c-container{
   width: 10%;
@@ -57,4 +67,25 @@ main{
 
 .chart img{
   width: 100%;
+}
+
+
+/* content-bottom */
+
+.active-users a{
+  font-size: .9rem;
+}
+
+.active-users ul{
+  list-style: none;
+}
+
+.active-users ul li{
+  font-size: .8rem;
+  padding: .5rem 0;
+  border-bottom: 1px solid gray;
+}
+
+.active-users ul li:first-child{
+  border-top: 1px solid gray;
 }
