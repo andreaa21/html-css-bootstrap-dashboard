@@ -163,7 +163,8 @@ td.empty{
 
 /* responsive */
 
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 576px) {
 
   th.empty{
     display:table-cell;
@@ -173,4 +174,9 @@ td.empty{
     display:table-cell;
   }
   
+}
+@media screen and (max-width: 992px) {
+  th.blank{
+    display: none;
+  }
 }
