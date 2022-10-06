@@ -18,6 +18,10 @@ ul{
   padding: 0;
 }
 
+.r-3{
+  border-radius: 3px;
+}
+
 .bg-lightgray{
   background-color: #F7F7F7;
 }
@@ -72,6 +76,11 @@ main{
 
 /* content-bottom */
 
+.border-container{
+  border: 1px solid lightgray;
+  padding: 1rem;
+}
+
 .active-users a{
   font-size: .9rem;
 }
@@ -83,9 +92,9 @@ main{
 .active-users ul li{
   font-size: .8rem;
   padding: .5rem 0;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
 }
 
 .active-users ul li:first-child{
-  border-top: 1px solid gray;
+  border-top: 1px solid lightgray;
 }
