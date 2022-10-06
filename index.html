@@ -17,19 +17,19 @@
   <title>Dashboard</title>
 </head>
 <body>
-  <header class="">
-    <div class="container-fluid h-100">
-      <div class="row">
-        <div class="col-12 debug">
+  <header>
+    <div class="container-fluid h-100 d-flex align-items-center debug">
+      <div class="row debug">
+        <div class="col">
   
-          <nav class="navbar debug navbar-expand-lg bg-light">
+          <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.svg" class="d-none d-lg-block" alt="logo">
                 <img src="assets/img/mobile-logo.png" class="d-lg-none" alt="logo-mobile">
               </a>
               <div class="d-flex" id="navbarSupportedContent">
-                <form class="d-flex debug" role="search">
+                <form class="d-flex" role="search">
                   <input class="form-control me-2 bg-light" type="search" placeholder="Prova a cercare" aria-label="Search">
                 </form>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -64,7 +64,7 @@
     </div>
   </header>
 
-  <main class="d-flex mt-5">
+  <main class="d-flex">
 
     <!-- SIDENAV -->
 
@@ -184,72 +184,295 @@
             <div class="row">
               <div class="col-lg-8">
 
-                <div class="item mt-2">
+                <div class="item mt-2 border">
                   <div class="item-top px-3 py-1 bg-lightgray">
                     <h2>
                       Prossime classi
                     </h2>
                   </div>
-                  <div class="item-bottom">
+                  <div class="item-bottom p-3">
                     <table class="table">
                       <thead>
                         <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">First</th>
-                          <th scope="col">Last</th>
-                          <th scope="col">Handle</th>
-                          <th scope="col">Handle</th>
+                          <th scope="col">Nome</th>
+                          <th scope="col" class="d-lg-none"></th>
+                          <th scope="col" class="d-lg-none"></th>
+                          <th scope="col" class="empty"></th>
+                          <th scope="col" class="empty"></th>
+                          <th scope="col" class="empty"></th>
+                          <th scope="col" class="empty"></th>
+                          <th scope="col" class="empty"></th>
+                          <th scope="col" class="empty">Data</th>
+                          <th scope="col" class="empty">ROI</th>
+                          <th scope="col">Stato</th>
+                          <th scope="col">Azioni</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
+                          <td>
+                            <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                            <span>
+                              classe 75
+                            </span>
+                          </td>
+                          <td class="empty"></td>
+                          <td class="empty"></td>
+                          <td class="empty"></td>
+                          <td class="empty"></td>
+                          <td class="empty"></td>
+                          </div>
+                          <td class="">
+                            <span class="d-none d-lg-block">
+                              15 Febbraio 2021
+                            </span>
+                          </td>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              20%
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge bg-success p-2 r-20">Done</span>
+                          </td>
+                          <td>
+                            <i class="bi bi-pencil-fill mx-1 p-1 border"></i>
+                            <i class="bi bi-trash-fill mx-1 p-1 border"></i>
+                          </td>
                         </tr>
+
                         <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
+                          <td>
+                            <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                            <span>
+                              classe 75
+                            </span>
+                          </td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                          </div>
+                          <td class="">
+                            <span class="d-none d-lg-block">
+                              15 Febbraio 2021
+                            </span>
+                          </td>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              20%
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge bg-success p-2 r-20">Done</span>
+                          </td>
+                          <td>
+                            <i class="bi bi-pencil-fill mx-1 p-1 border"></i>
+                            <i class="bi bi-trash-fill mx-1 p-1 border"></i>
+                          </td>
                         </tr>
+
                         <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
+                          <td>
+                            <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                            <span>
+                              classe 75
+                            </span>
+                          </td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                          </div>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              15 Febbraio 2021
+                            </span>
+                          </td>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              20%
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge bg-warning p-2 r-20">Process</span>
+                          </td>
+                          <td>
+                            <i class="bi bi-pencil-fill mx-1 p-1 border"></i>
+                            <i class="bi bi-trash-fill mx-1 p-1 border"></i>
+                          </td>
                         </tr>
+
                         <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
+                          <td>
+                            <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                            <span>
+                              classe 75
+                            </span>
+                          </td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                          </div>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              15 Febbraio 2021
+                            </span>
+                          </td>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              20%
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge bg-success p-2 r-20">Done</span>
+                          </td>
+                          <td>
+                            <i class="bi bi-pencil-fill mx-1 p-1 border"></i>
+                            <i class="bi bi-trash-fill mx-1 p-1 border"></i>
+                          </td>
                         </tr>
+
                         <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
+                          <td class="">
+                            <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                            <span>
+                              classe 75
+                            </span>
+                          </td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                          </div>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              15 Febbraio 2021
+                            </span>
+                          </td>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              20%
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge bg-danger p-2 r-20">Failed</span>
+                          </td>
+                          <td>
+                            <i class="bi bi-pencil-fill mx-1 p-1 border"></i>
+                            <i class="bi bi-trash-fill mx-1 p-1 border"></i>
+                          </td>
                         </tr>
+
                         <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
+                          <td class="">
+                            <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                            <span>
+                              classe 75
+                            </span>
+                          </td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                          </div>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              15 Febbraio 2021
+                            </span>
+                          </td>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              20%
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge bg-success p-2 r-20">Done</span>
+                          </td>
+                          <td>
+                            <i class="bi bi-pencil-fill mx-1 p-1 border"></i>
+                            <i class="bi bi-trash-fill mx-1 p-1 border"></i>
+                          </td>
                         </tr>
+
                         <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
+                          <td>
+                            <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                            <span>
+                              classe 75
+                            </span>
+                          </td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                          </div>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              15 Febbraio 2021
+                            </span>
+                          </td>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              20%
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge bg-danger p-2 r-20">Failed</span>
+                          </td>
+                          <td>
+                            <i class="bi bi-pencil-fill mx-1 p-1 border"></i>
+                            <i class="bi bi-trash-fill mx-1 p-1 border"></i>
+                          </td>
                         </tr>
+
                         <tr>
-                          <th scope="row">3</th>
-                          <td colspan="2">Larry the Bird</td>
-                          <td>@twitter</td>
+                          <td>
+                            <img src="assets/img/class-avatar.jpg" alt="class-avatar">
+                            <span>
+                              classe 75
+                            </span>
+                          </td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                          </div>
+                          <td class="">
+                            <span class="d-none d-lg-block">
+                              15 Febbraio 2021
+                            </span>
+                          </td>
+                          <td>
+                            <span class="d-none d-lg-block">
+                              20%
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge bg-success p-2 r-20">Done</span>
+                          </td>
+                          <td>
+                            <i class="bi bi-pencil-fill mx-1 p-1 border"></i>
+                            <i class="bi bi-trash-fill mx-1 p-1 border"></i>
+                          </td>
                         </tr>
+
+
+                        
                       </tbody>
                     </table>
                   </div>
                 </div>
 
-                <div class="item border">
+                <div class="item mt-4 border">
                   <div class="item-top px-3 py-1 bg-lightgray border-bottom">
                     <h2>
                       F.A.Q.

@@ -99,6 +99,26 @@ main{
 
 /* content-bottom */
 
+td img{
+  width: 30px;
+}
+
+th{
+  text-align: center;
+}
+
+td{
+  text-align: center;
+}
+
+th.empty{
+  display: none;
+}
+
+td.empty{
+  display: none;
+}
+
 .border-container{
   border: 1px solid lightgray;
   padding: 1rem;
@@ -120,4 +140,19 @@ main{
 
 .active-users ul li:first-child{
   border-top: 1px solid lightgray;
+}
+
+
+/* responsive */
+
+@media screen and (min-width: 992px) {
+
+  th.empty{
+    display:table-cell;
+  }
+
+  td.empty{
+    display:table-cell;
+  }
+  
 }
