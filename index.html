@@ -189,34 +189,64 @@
                     <h2 class="p-2">
                       Prossime classi
                     </h2>
-                    <div class="bonus border rounded border-primary me-2 p-2 btn">
-                      <i class="bi bi-plus-lg text-primary"></i>
-                    </div>
-                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <a class="btn border-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                       <i class="bi bi-plus-lg text-primary"></i>
                     </a>
 
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                       <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                       </div>
                       <div class="offcanvas-body">
                         <form>
-                          <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          <div class="form-top d-flex justify-content-between">
+                            <div class="mb-3 w-50 pe-2">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3 w-50 ps-2">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
                           </div>
-                          <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+
+                          <div class="address d-flex flex-column my-3">
+                            <label for="InputAddress" class="form-label">Indirizzo</label>
+                            <input type="text">
                           </div>
+
+                          <div class="form-bottom d-flex justify-content-between">
+                            <div class="city d-flex flex-column w-50">
+                              <label for="text" class="form-label">Città</label>
+                              <input type="text">
+                            </div>
+                            <div class="country d-flex flex-column">
+                              <label for="text" class="form-label">Stato</label>
+                              <input type="text">
+                            </div>
+                            <div class="cap d-flex flex-column">
+                              <label for="text" class="form-label">CAP</label>
+                              <input type="text">
+                            </div>
+                          </div>
+
+                          <div class="foto my-4 d-flex flex-column">
+                            <label for="foto" class="my-3">Foto</label>
+                            <input type="file" name="file" id="file">
+                          </div>
+       
                           <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
                           </div>
-                          <button type="submit" class="btn btn-primary">Submit</button>
+
+                          <div class="form-buttons">
+                            <button type="submit" class="btn btn-primary">Salva</button>
+                            <button type="submit" class="btn btn-warning">Svuota</button>
+                          </div>
+
+                          
                         </form>  
                       </div>
                     </div>
