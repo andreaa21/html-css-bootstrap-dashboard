@@ -18,18 +18,18 @@
 </head>
 <body>
   <header>
-    <div class="container-fluid h-100 d-flex align-items-center debug">
+    <div class="container-fluid h-100 d-flex align-items-center">
       <div class="row d-flex h-container">
         <div class="col">
   
           <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
+            <div class="container-fluid debug">
               <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.svg" class="d-none d-lg-block" alt="logo">
                 <img src="assets/img/mobile-logo.png" class="d-lg-none" alt="logo-mobile">
               </a>
               <div class="d-flex" id="navbarSupportedContent">
-                <form class="d-flex" role="search">
+                <form class="d-flex debug" role="search">
                   <input class="form-control me-2 bg-light" type="search" placeholder="Prova a cercare" aria-label="Search">
                 </form>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -185,10 +185,42 @@
               <div class="col-lg-8">
 
                 <div class="item mt-2 border">
-                  <div class="item-top px-3 py-1 bg-lightgray">
-                    <h2>
+                  <div class="item-top px-3 py-1 bg-lightgray d-flex justify-content-between align-items-center">
+                    <h2 class="p-2">
                       Prossime classi
                     </h2>
+                    <div class="bonus border rounded border-primary me-2 p-2 btn">
+                      <i class="bi bi-plus-lg text-primary"></i>
+                    </div>
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                      <i class="bi bi-plus-lg text-primary"></i>
+                    </a>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Form</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>  
+                      </div>
+                    </div>
+                    
                   </div>
                   <div class="item-bottom p-3">
                     <table class="table">
