@@ -18,12 +18,24 @@ ul{
   padding: 0;
 }
 
+h2{
+  font-size: 1.8rem;
+}
+
 .r-3{
   border-radius: 3px;
 }
 
+.r-20{
+  border-radius: 20px;
+}
+
 .bg-lightgray{
   background-color: #F7F7F7;
+}
+
+.bg-darkblue{
+  background-color: #155CBA;
 }
 
 
@@ -65,8 +77,15 @@ main{
   height: 10%
 }
 
-.content-top{
-  background-color: ;
+/* content-top */
+
+.content-top .tag ul{
+  list-style: none;
+}
+
+
+.content-top .affranti{
+  font-size: .8rem;
 }
 
 .chart img{
