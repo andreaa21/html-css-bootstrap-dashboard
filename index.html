@@ -17,26 +17,43 @@
   <title>Dashboard</title>
 </head>
 <body>
-  <header>
-    <div class="container-fluid">
-      <div class="row h-100 d-flex align-items-center">
-        <div class="col">
+  <header class="">
+    <div class="container-fluid h-100">
+      <div class="row">
+        <div class="col-12 debug">
   
-          <nav class="navbar navbar-expand-lg bg-light">
+          <nav class="navbar debug navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.svg" class="d-none d-lg-block" alt="logo">
                 <img src="assets/img/mobile-logo.png" class="d-lg-none" alt="logo-mobile">
               </a>
               <div class="d-flex" id="navbarSupportedContent">
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" style="width: 100%; type="search" placeholder="Search" aria-label="Search">
+                <form class="d-flex debug" role="search">
+                  <input class="form-control me-2 bg-light" type="search" placeholder="Prova a cercare" aria-label="Search">
                 </form>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                  <li class="nav-item d-none d-lg-inline-block">
+                    <a class="nav-link" href="#">
+                      <i class="bi bi-list-ul"></i>
+                    </a>
                   </li>
+                  <li class="nav-item d-none d-lg-inline-block">
+                    <a class="nav-link" href="#">
+                      <i class="bi bi-question-circle-fill"></i>
+                    </a>
                   </li>
+                  <li class="nav-item d-none d-lg-inline-block">
+                    <a class="nav-link" href="#">
+                      <i class="bi bi-three-dots-vertical"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item ms-2">
+                    <a class="nav-link" href="#">
+                      <i class="bi bi-bell-fill"></i>
+                    </a>
+                  </li>
+                  
                 </ul>
   
               </div>
