@@ -53,7 +53,9 @@ header .h-container{
   flex-basis: 100%;
 }
  
-
+.navbar li:last-child i{
+  filter: invert(92%) sepia(16%) saturate(3854%) hue-rotate(325deg) brightness(92%) contrast(91%)
+}
 
 .navbar-brand img:last-child{
   width: 40px;
