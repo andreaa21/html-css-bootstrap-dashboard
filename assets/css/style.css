@@ -99,6 +99,10 @@ main{
 
 /* content-bottom */
 
+.table{
+  font-size: .9rem;
+}
+
 td img{
   width: 30px;
 }
@@ -107,8 +111,16 @@ th{
   text-align: center;
 }
 
+thead th:first-child{
+  text-align: start;
+}
+
 td{
   text-align: center;
+}
+
+tbody td:first-child{
+  text-align: start;
 }
 
 th.empty{
